@@ -61,6 +61,10 @@ const Sidebar = () => {
         Program Areas
       </h2>
 
+      <customComponent>
+        
+      </customComponent>
+
       <nav className="space-y-2">
         {AREAS.map((area) => (
           <NavLink

@@ -1,10 +1,9 @@
-import React from "react";
 import DropdownMenu from "./DropdownMenu";
 import BSULogo from "../assets/Batangas_State_Logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const menus = [
+  /* const menus = [
     {
       title: "Program Areas",
       path: "/#program-areas",
@@ -111,42 +110,19 @@ const Navbar = () => {
       ],
     },
   ];
-
+ */
   return (
-    <nav className="w-full bg-white border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-6 h-15 flex items-center justify-between">
-        {/* Logo */}
-        <div className="flex items-center gap-2">
-          <Link to="/" className="text-xl font-bold text-gray-900">
-            <img
-              src={BSULogo}
-              className="h-10 w-auto"
-              alt="Batangas State University Logo"
-            />
-          </Link>
-
-          <div>
-            <p className="font-bold text-gray-600 inconsolata">BATSTATEU</p>
-            <p className="text-sm font-normal text-gray-600 inconsolata">
-              THE NEU BALAYAN
-            </p>
-          </div>
-        </div>
-
-        {/* Navigation */}
-        <div className="flex items-center gap-8 h-full inconsolata">
-          {menus.map((menu, index) => (
-            <DropdownMenu
-              image={BSULogo}
-              key={index}
-              title={menu.title}
-              path={menu.path}
-              columns={menu.columns}
-            />
-          ))}
-        </div>
-      </div>
-    </nav>
+    <>
+      <nav className="flex px-5 py-2 gap-1 md:justify-items-center lg:justify-items-start items-center-safe shadow-sm">
+        <section>
+          <img src={BSULogo} alt="bastateu-logo" className="w-12" />
+        </section>
+        <section>
+          <h1 className="uppercase text-xs tracking-wider font-light -mb-1">batstateutneu-balayan</h1>
+          <h2 className="font-extrabold tracking-wide">Information Technology</h2>
+        </section>
+      </nav>
+    </>
   );
 };
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const AREAS = [
@@ -63,7 +62,7 @@ const AreaSection = () => {
       className="px-5 py-12 font-sans text-[#2a1416]"
       aria-labelledby="areas-heading"
     >
-      <div className="mx-auto max-w-260">
+      <div className="mx-auto max-w-260 text-center lg:text-start">
         <h2
           id="areas-heading"
           className="mb-2 bebas-neue text-[clamp(1.8rem,4vw,2.4rem)] font-semibold leading-[1.15]"
@@ -71,12 +70,12 @@ const AreaSection = () => {
           Accreditation Areas
         </h2>
 
-        <p className="mb-8 max-w-[56ch] text-base leading-[1.6] text-[#7a5b5e]">
+        <p className="mb-8 max-w-[56ch] text-base text-yellow-950">
           Explore the comprehensive areas of the Bachelor of Science in
           Information Technology program
         </p>
 
-        <ol className="m-0 grid list-none grid-cols-1 gap-3 p-0 min-[700px]:grid-cols-2">
+        <ol className="m-0 grid list-none grid-cols-1 grid-flow-row gap-3 p-0 min-[700px]:grid-cols-2 min-[700px]:grid-rows-5 min-[700px]:grid-flow-col">
           {AREAS.map((area, index) => {
             const number = index + 1;
 
@@ -93,22 +92,17 @@ const AreaSection = () => {
                     py-4 pl-0 pr-4
                     text-left
                     transition-colors duration-150
-                    hover:border-[#b3201f] hover:bg-[#fdecec]
-                    focus-visible:border-[#b3201f] focus-visible:bg-[#fdecec]
+                    hover:border-yellow-900 hover:bg-yellow-900
+                    focus-visible:border-yellow-900 focus-visible:bg-[#fdecec]
                     focus-visible:outline-2 focus-visible:outline-offset-2
-                    focus-visible:outline-[#b3201f]
+                    focus-visible:outline-yellow-900
+                    cursor-pointer
                   "
                   onClick={() => navigate(`/areas/${area.slug}`)}
                 >
-                  {/* Red indicator */}
-                  <span
-                    className="absolute bottom-0 left-0 top-0 w-1 bg-[#b3201f] opacity-0 transition-opacity duration-150 group-hover:opacity-100 group-focus-visible:opacity-100"
-                    aria-hidden="true"
-                  />
-
                   {/* Number */}
                   <span
-                    className="pt-0.5 text-center font-serif text-[2rem] font-semibold leading-none text-[#b3201f]"
+                    className="pt-0.5 text-center font-serif text-[2rem] font-semibold leading-none text-yellow-900 group-hover:text-yellow-50 group-hover:opacity-100"
                     aria-hidden="true"
                   >
                     {number}
@@ -116,18 +110,18 @@ const AreaSection = () => {
 
                   {/* Content */}
                   <span>
-                    <span className="block inconsolata text-[1.5rem] font-semibold leading-[1.3]">
+                    <span className="block text-[1.2rem] lg:text-[1.5rem] font-bold leading-[1.3] group-hover:text-yellow-50 group-hover:opacity-100">
                       {area.title}
                     </span>
 
-                    <span className="mt-1 block text-[0.88rem] leading-normal text-[#7a5b5e]">
+                    <span className="mt-1 block text-[0.88rem] font-light leading-normal text-[#7a5b5e] group-hover:text-gray-300 group-hover:opacity-100">
                       {area.note}
                     </span>
                   </span>
 
                   {/* Arrow */}
                   <svg
-                    className="mt-1 h-5 w-5 text-[#7a5b5e] transition-[transform,color] duration-150 group-hover:translate-x-0.75 group-hover:text-[#b3201f] group-focus-visible:translate-x-0.75 group-focus-visible:text-[#b3201f]"
+                    className="mt-1 h-5 w-5 text-[#7a5b5e] transition-[transform,color] duration-150 group-hover:translate-x-0.75 group-hover:text-yellow-50 group-focus-visible:translate-x-0.75 group-focus-visible:text-yellow-50"
                     viewBox="0 0 20 20"
                     fill="none"
                     stroke="currentColor"
