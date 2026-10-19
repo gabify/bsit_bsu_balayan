@@ -113,14 +113,28 @@ const Navbar = () => {
  */
   return (
     <>
-      <nav className="flex px-5 py-2 gap-1 md:justify-items-center lg:justify-items-start items-center-safe shadow-sm">
-        <section>
-          <img src={BSULogo} alt="bastateu-logo" className="w-12" />
-        </section>
-        <section>
-          <h1 className="uppercase text-xs tracking-wider font-light -mb-1">batstateutneu-balayan</h1>
-          <h2 className="font-extrabold tracking-wide">Information Technology</h2>
-        </section>
+      <nav className="flex items-center gap-3 px-5 py-2 shadow-sm">
+        <Link
+          to="/"
+          aria-label="BatStateU Balayan Information Technology homepage"
+          className="group flex items-center gap-3"
+        >
+          <img
+            src={BSULogo}
+            alt="BatStateU Logo"
+            className="w-12 shrink-0 transition-transform duration-200 group-hover:scale-105"
+          />
+
+          <section>
+            <h1 className="mb-0.5 text-xs font-light uppercase tracking-wider text-gray-600 transition-colors duration-200 group-hover:text-red-700">
+              BatStateU TNEU - Balayan
+            </h1>
+
+            <h2 className="font-extrabold tracking-wide transition-colors duration-200 group-hover:text-red-700">
+              Information Technology
+            </h2>
+          </section>
+        </Link>
       </nav>
     </>
   );
