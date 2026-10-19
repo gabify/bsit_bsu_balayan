@@ -1,4 +1,3 @@
-import React from "react";
 import BSULogo from "../assets/Batangas_State_Logo.png";
 
 // WARNING: This is auto-generated SVG code for the university banner

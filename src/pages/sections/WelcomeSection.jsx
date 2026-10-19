@@ -2,74 +2,32 @@ import React from "react";
 import HexagonPicture from "../../components/HexagonPicture";
 import HexagonBackground from "../../assets/canva_assets/background_hexagon.png";
 import HexagonBackgroundBottom from "../../assets/canva_assets/background_hexagon_bottom.png";
+import BSULogo from "../../assets/Batangas_State_Logo.png";
 
 const WelcomeSection = () => {
-  return (
-    <section className="w-full relative">
-      <img
-        src={HexagonBackground}
-        alt=""
-        className="absolute w-50 h-50 object-cover"
-      />
-
-      <img
-        src={HexagonBackgroundBottom}
-        alt=""
-        className="absolute bottom-0 w-50 h-50 object-cover"
-      />
-
-      <div className="absolute bottom-0 right-0 p-4 text-xl font-bold">
-        <div>Leading innovations,</div>
-        <div>Transforming Lives,</div>
-        <div>Building the Nation</div>
-      </div>
-
-      <div className="flex min-h-125 w-full gap-10">
-        {/* Left Column */}
-        <div className="w-1/2 flex justify-center">
-          {/* Hexagon Group / Canvas */}
-          <div className="relative w-125 h-125 shrink-0">
-            {/* Big picture */}
-            <HexagonPicture
-              src="https://placehold.co/600x400"
-              top="50px"
-              right="90px"
-              size="w-100 h-100"
-            />
-
-            {/* Bottom right */}
-            <HexagonPicture
-              src="https://placehold.co/600x400"
-              bottom="40px"
-              right="60px"
-              size="w-40 h-40"
-            />
-
-            {/* Top left */}
-            <HexagonPicture
-              src="https://placehold.co/600x400"
-              top="20px"
-              size="w-40 h-40"
-            />
+  return(
+    <>
+      <section className="bg-gray-300 h-130 lg:h-160 py-3 px-2 lg:px-36 lg:pt-72 flex flex-col justify-between">
+        <article className="flex flex-col lg:flex-row lg:gap-10 items-center-safe">
+          <div className="mt-48 mb-8 lg:mt-0 lg:mb-0">
+            <img src={BSULogo} alt="batstateu-logo" className="w-32 lg:w-52"/>
           </div>
-        </div>
-
-        {/* Right Column */}
-        <div className="flex w-1/2 flex-col items-start justify-center">
-          <h1 className="text-8xl font-bold text-[#a77427] uppercase bebas-neue text-center">
-            Preliminary
-          </h1>
-
-          <h1 className="text-8xl font-bold text-[#a77427] uppercase bebas-neue text-center">
-            Survey
-          </h1>
-
-          <h1 className="text-8xl font-bold text-[#a77427] uppercase bebas-neue text-center">
-            Visit
-          </h1>
-        </div>
-      </div>
-    </section>
+          <div className="text-center lg:text-start">
+            <h1 className="uppercase font-extrabold tracking-wide -mb-1.5 lg:text-3xl">Batangas State University</h1>
+            <h2 className="font-extralight text-red-600 mb-2 lg:mb-6 lg:text-2xl">The National Engineering University</h2>
+            <p className="font-bold tracking-wide -mb-2 lg:text-2xl">Balayan Campus</p>
+            <small className="font-extralight lg:text-xl">College of Informatics and Computing Sciences</small>
+          </div>
+        </article>
+        <article className="mt-10 lg:mt-0 text-xs flex gap-3 text-red-600 font-light lg:text-xl lg:justify-center-safe lg:gap-10">
+          <small>Leading Innovation</small>
+          <small className="lg:hidden">&#9679;</small>
+          <small>Transforming Lives</small>
+          <small className="lg:hidden">&#9679;</small>
+          <small>Building The Nation</small>
+        </article>
+      </section>
+    </>
   );
 };
 

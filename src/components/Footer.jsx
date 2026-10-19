@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <footer className="w-full bg-[#383a3b] text-gray-100">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 text-center lg:text-start md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-2">
             <h2 className="text-xl font-bold tracking-wide">
               INFORMATION TECHNOLOGY
             </h2>
 
-            <p className="mt-3 max-w-md text-sm leading-6 text-gray-300">
+            <p className="mt-3 text-center lg:text-start text-sm text-gray-300">
               Empowering students through technology, innovation, and continuous
               learning to build solutions for the future.
             </p>
@@ -24,11 +24,8 @@ const Footer = () => {
               Contact
             </h3>
 
-            <div className="mt-4 space-y-2 text-sm text-gray-300">
-              <p>Batangas State University</p>
-              <p>Balayan Campus</p>
-              <p>Batangas, Philippines</p>
-              <p className="pt-1">info@example.edu.ph</p>
+            <div className="space-y-2 text-sm text-gray-300">
+              <p className="pt-1">cics.balayan@g.batstate-u.edu.ph</p>
             </div>
           </div>
         </div>

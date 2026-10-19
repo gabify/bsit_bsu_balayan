@@ -1,3 +1,5 @@
+import BSULogo from "../../assets/Batangas_State_Logo.png"
+
 const CornerMark = ({ position }) => {
   const base = "absolute w-6 h-6 border-red-700 pointer-events-none";
   const map = {
@@ -18,22 +20,23 @@ const VideoSection = () => {
       >
         <div className="w-full max-w-7xl mx-auto px-6 py-16 md:px-10 lg:py-24 grid gap-12 lg:gap-16 lg:grid-cols-12 items-center">
           {/* Text column */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 flex flex-col items-center-safe lg:items-start text-center lg:text-start">
             {/* Logo placeholder */}
             <div
               role="img"
               aria-label="University logo placeholder"
-              className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-dashed border-slate-400 bg-white/70 flex items-center justify-center text-center text-xs font-medium text-slate-500"
+              className="w-24 h-24 md:w-28 md:h-28 rounded-full border-slate-400 bg-white/70 flex items-center justify-center text-center text-xs font-medium text-slate-500"
             >
-              Logo
-              <br />
-              here
+              <img src={BSULogo} alt="" />
             </div>
 
-            <h2 className="mt-8 text-4xl md:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
-              Batangas State University
-              <span className="block text-red-700">Balayan Campus</span>
-            </h2>
+            <div>
+              <h2 className="mt-4 text-xl md:text-3xl font-bold tracking-tight text-slate-900 leading-tight">
+                Batangas State University
+              </h2>
+              <p className="font-light text-red-500">The National Engineering University</p>
+              <small className="text-sm font-bold tracking-wide">Balayan Campus</small>
+            </div>
 
             <p className="mt-6 max-w-md text-lg leading-relaxed text-slate-600">
               A proud part of the National Engineering University, shaping

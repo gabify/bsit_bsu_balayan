@@ -1,5 +1,3 @@
-import React from "react";
-
 const resources = [
   {
     title: "Program Activities",
@@ -31,16 +29,21 @@ const BSITSection = () => {
   return (
     <section
       id="bsit-section"
-      className="w-full min-h-screen bg-slate-100 flex items-center"
+      className="w-full min-h-screen bg-slate-100 flex items-center lg:px-36"
     >
       <div className="container mx-auto px-6 py-10">
         {/* Heading (on top) */}
-        <div className="mb-12">
-          <div className="w-12 h-1 bg-red-700 mb-6" />
-          <h2 className="bebas-neue uppercase text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
-            Bachelor of Science in Information Technology.
-          </h2>
-          <p className="mt-4 text-lg text-slate-600 leading-relaxed max-w-xl">
+        <div className="mb-12 text-center lg:text-start">
+          <div className="w-12 lg:w-24 h-1 bg-yellow-900 mb-6" />
+          <div className="bebas-neue font-bold text-slate-900 leading-tight">
+            <h2 className="text-xl md:text-3xl">
+              Bachelor of Science in
+            </h2>
+            <h2 className="uppercase text-3xl md:text-5xl text-red-800">
+              Information Technology
+            </h2>
+          </div>
+          <p className="mt-4 text-sm lg:text-lg text-slate-600 leading-tight xl:leading-relaxed max-w-xl">
             Find program activities, task force members, and accreditation
             documents here.
           </p>
@@ -52,9 +55,9 @@ const BSITSection = () => {
             <a
               key={item.title}
               href={item.href}
-              className="group relative flex flex-col bg-white p-7 rounded-2xl border border-slate-200 hover:border-red-700 hover:shadow-lg transition focus:outline-none focus-visible:ring-4 focus-visible:ring-red-200"
+              className="group relative flex flex-col bg-white p-7 rounded-2xl border border-slate-200 hover:border-yellow-900 hover:shadow-lg transition focus:outline-none focus-visible:ring-4 focus-visible:ring-red-200"
             >
-              <div className="w-14 h-14 rounded-xl bg-red-50 text-red-700 flex items-center justify-center group-hover:bg-red-700 group-hover:text-white transition">
+              <div className="w-14 h-14 rounded-xl bg-amber-50 text-yellow-900 flex items-center justify-center group-hover:bg-yellow-900 group-hover:text-white transition absolute bottom-4 right-3">
                 <svg
                   className="w-7 h-7"
                   xmlns="http://www.w3.org/2000/svg"
@@ -71,29 +74,14 @@ const BSITSection = () => {
                   />
                 </svg>
               </div>
-
-              <h3 className="inconsolata mt-6 text-xl font-bold text-slate-900">
-                {item.title}
-              </h3>
-              <p className="mt-2 text-sm text-slate-600 leading-relaxed pr-8">
-                {item.description}
-              </p>
-
-              <svg
-                className="absolute right-6 bottom-7 w-5 h-5 text-slate-300 group-hover:text-red-700 group-hover:translate-x-1 transition"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                />
-              </svg>
+              <div>
+                <h3 className="text-xl font-bold text-slate-900">
+                  {item.title}
+                </h3>
+                <p className="mt-2 mb-10 text-sm font-light text-slate-600 leading-tight pr-8">
+                  {item.description}
+                </p>
+              </div>
             </a>
           ))}
         </div>
