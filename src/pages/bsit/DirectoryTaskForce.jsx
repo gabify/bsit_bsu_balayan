@@ -5,16 +5,17 @@ const DirectoryTaskForce = () =>{
     const [openArea, setOpenArea] = useState(null);
     const toggleArea = (area) => setOpenArea((current) => current === area ? null : area);
 
+    const steeringCommitee = {
+        area: 'steering', 
+        title: 'Steering Committee',
+        committe: [
+            {name: 'Asst. Prof. May G. Gonzales', position: 'Steering Commitee'},
+            {name: 'Ms. Celinne A. Mendez', position: 'Steering Commitee'},
+            {name: 'Mr. John Bryan G. Naños', position: 'Steering Commitee'}
+        ]
+    }
+
     const areas = [
-        {
-            area: 'steering', 
-            title: 'Steering Committee',
-            committe: [
-                {name: 'Asst. Prof. May G. Gonzales', position: 'Steering Commitee'},
-                {name: 'Ms. Celinne A. Mendez', position: 'Steering Commitee'},
-                {name: 'Mr. John Bryan G. Naños', position: 'Steering Commitee'}
-            ]
-        },
         {
             area: 'I', 
             title: 'Vision, Mission, Goals and Objectives',
@@ -115,9 +116,9 @@ const DirectoryTaskForce = () =>{
 
     return(
         <main className="px-4 py-3 lg:px-36">
-            <header className="py-10 text-center uppercase">
-                <h1 className="text-xl font-bold tracking-wide">Local Accreditation Task Force</h1>
-                <p className="text-sm tracking-wider font-light">bsit preliminary survey visit</p>
+            <header className="py-10 text-center uppercase lg:text-start">
+                <h1 className="text-xl lg:text-2xl font-bold tracking-wide">Local Accreditation Task Force</h1>
+                <p className="text-sm lg:text-md tracking-wider font-light">bsit preliminary survey visit</p>
             </header>
 
             <section id="overall-steering">
@@ -135,7 +136,7 @@ const DirectoryTaskForce = () =>{
                             aria-expanded={openArea === s.area}
                             className="flex w-full items-center justify-between bg-[#B93400] p-4 text-left text-white cursor-pointer"
                         >
-                            <h2>{s.area === 'steering' ? 'Steering Committee' : `Area ${s.area}`}</h2>
+                            <h2 className="font-bold tracking-wide">{s.area === 'steering' ? 'Steering Committee' : `Area ${s.area}`}</h2>
                         
                         <svg
                             className={`h-5 w-5 transition-transform duration-300 ${
@@ -162,17 +163,19 @@ const DirectoryTaskForce = () =>{
                                 : "grid-rows-[0fr]"
                             }`}
                         >
-                            <div className="min-h-0 overflow-hidden px-2">
-                                <div className="py-3">
-                                    <p className={`mb-4 text-center font-semibold ${s.area === 'steering' ? 'hidden' : 'block'}`}>
+                            <div className="min-h-0 overflow-hidden">
+                                <div className="py-3 px-2">
+                                    <p className={`font-semibold mb-2 ${s.area === 'steering' ? 'hidden' : 'block'}`}>
                                         {s.title}
                                     </p>
+                                    <div className={`w-36 lg:w-24 h-1 bg-yellow-900 ${s.area === 'steering' ? 'hidden' : 'block'}`} />
                                 </div>
                                 <div>
                                     <ul className="space-y-3">
                                         {s.committe.map((c, index) =>(
-                                            <li key={index}>
-                                                <NameBanner name={c.name} position={c.position}/>
+                                            <li key={index} className="py-2 px-4 hover:bg-[#B93400] hover:text-gray-50 transition-all hover:border-s-4 border-red-50">
+                                                <h3 className="-mb-1.5 font-medium text-sm cursor-default">{c.name}</h3>
+                                                <small className="font-light text-xs cursor-default">{c.position}</small>
                                             </li>
                                         ))}
                                     </ul>
