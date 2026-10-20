@@ -2,7 +2,7 @@ import Placeholder from "../../assets/placeholder-pic.png";
 
 const NameBanner = ({ name, position="", image=Placeholder }) => {
   return (
-    <section className="bg-red-600 px-2.5 pt-3 pb-3 rounded-xl mb-3">
+    <section className="bg-[#B93400] px-2.5 pt-3 pb-3 rounded-xl mb-3">
         <article className="flex gap-1 justify-start items-center mb-2">
             <div>
                 <img src={image} alt="picture" className="w-14 rounded-full p-1"/>
