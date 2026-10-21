@@ -17,30 +17,13 @@ const defaultArea = {
     email: "juan.delacruz@example.edu",
   },
 
-  files: [
-    {
-      id: 1,
-      name: "Curriculum and Program of Study.pdf",
-      url: "#",
-    },
-    {
-      id: 2,
-      name: "Course Syllabi and Instructional Plans.pdf",
-      url: "#",
-    },
-    {
-      id: 3,
-      name: "Student Assessment and Evaluation Guidelines.pdf",
-      url: "#",
-    },
-  ],
-
   parameters: [
     {
       id: "A",
       title: "Curriculum and Program of Study",
       description:
         "The relevance, organization, and alignment of the curriculum with program objectives, institutional goals, and industry requirements.",
+      href: "https://drive.google.com/your-faculty-document",
     },
     {
       id: "B",
@@ -71,7 +54,7 @@ const CurriculumInstruction = ({ area = defaultArea }) => {
 
         <FocalPerson focalPerson={focalPerson} />
 
-        <AreaFiles files={files} />
+        <AreaFiles />
       </div>
 
       {/* Parameters */}

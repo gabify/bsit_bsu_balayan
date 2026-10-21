@@ -124,9 +124,7 @@ const Sidebar = () => {
         }`}
       >
         <div className="mb-6 flex h-7 items-center justify-between px-1">
-          <span className="text-sm font-semibold uppercase inconsolata">
-            Program Areas
-          </span>
+          <span className="text-sm font-semibold uppercase">Program Areas</span>
           <button
             type="button"
             onClick={() => setOpen(false)}
@@ -162,7 +160,7 @@ const Sidebar = () => {
         <div
           className="
             group/sidebar absolute left-0 top-0
-            w-18 hover:w-72
+            w-18 hover:w-90
             min-h-full
             overflow-hidden
             rounded-r-lg
@@ -175,7 +173,7 @@ const Sidebar = () => {
           "
         >
           <h2 className="mb-6 flex h-7 items-center justify-center whitespace-nowrap">
-            <span className="text-sm font-semibold uppercase inconsolata">
+            <span className="text-sm font-semibold uppercase">
               <span className="group-hover/sidebar:hidden">Areas</span>
               <span className="hidden group-hover/sidebar:inline">
                 Program Areas

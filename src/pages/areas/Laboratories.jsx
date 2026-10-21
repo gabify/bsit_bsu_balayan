@@ -17,24 +17,6 @@ const defaultArea = {
     email: "juan.delacruz@example.edu",
   },
 
-  files: [
-    {
-      id: 1,
-      name: "Laboratory Inventory and Equipment Report.pdf",
-      url: "#",
-    },
-    {
-      id: 2,
-      name: "Laboratory Rules and Safety Procedures.pdf",
-      url: "#",
-    },
-    {
-      id: 3,
-      name: "Laboratory Maintenance and Utilization Report.pdf",
-      url: "#",
-    },
-  ],
-
   parameters: [
     {
       id: "A",
@@ -71,7 +53,7 @@ const Laboratories = ({ area = defaultArea }) => {
 
         <FocalPerson focalPerson={focalPerson} />
 
-        <AreaFiles files={files} />
+        <AreaFiles />
       </div>
 
       {/* Parameters */}

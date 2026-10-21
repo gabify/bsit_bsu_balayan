@@ -2,6 +2,7 @@ import React from "react";
 import {
   ClipboardDocumentListIcon,
   ChevronRightIcon,
+  ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/24/outline";
 import SectionTitle from "./SectionTitle";
 
@@ -24,16 +25,40 @@ const AreaParameters = ({ parameters = [] }) => {
                     {parameter.id}
                   </span>
 
-                  <span className="flex-1 font-medium">{parameter.title}</span>
+                  <span className="min-w-0 flex-1 font-medium">
+                    {parameter.title}
+                  </span>
 
                   <ChevronRightIcon
-                    className="h-5 w-5 text-yellow-900 transition-transform group-open:rotate-90"
+                    className="h-5 w-5 shrink-0 text-yellow-900 transition-transform group-open:rotate-90"
                     aria-hidden="true"
                   />
                 </summary>
 
                 <div className="px-4 pb-4 pl-14 text-sm leading-relaxed text-slate-600">
-                  {parameter.description}
+                  {parameter.description && (
+                    <ol className="list-decimal space-y-2 pl-5">
+                      {parameter.description
+                        .split("\n")
+                        .filter((item) => item.trim() !== "")
+                        .map((item, index) => (
+                          <li key={index}>
+                            {parameter.href ? (
+                              <a
+                                href={parameter.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-yellow-900 underline decoration-yellow-900/30 underline-offset-4 transition hover:text-yellow-700 hover:decoration-yellow-700 focus-visible:outline focus-visible:outline-yellow-900"
+                              >
+                                {item.trim()}
+                              </a>
+                            ) : (
+                              item.trim()
+                            )}
+                          </li>
+                        ))}
+                    </ol>
+                  )}
                 </div>
               </details>
             </li>
