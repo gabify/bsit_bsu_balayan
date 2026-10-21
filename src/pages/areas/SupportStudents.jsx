@@ -17,24 +17,6 @@ const defaultArea = {
     email: "juan.delacruz@example.edu",
   },
 
-  files: [
-    {
-      id: 1,
-      name: "Student Handbook.pdf",
-      url: "#",
-    },
-    {
-      id: 2,
-      name: "Student Affairs and Services Manual.pdf",
-      url: "#",
-    },
-    {
-      id: 3,
-      name: "Student Support Programs and Activities.pdf",
-      url: "#",
-    },
-  ],
-
   parameters: [
     {
       id: "A",
@@ -71,7 +53,7 @@ const SupportStudents = ({ area = defaultArea }) => {
 
         <FocalPerson focalPerson={focalPerson} />
 
-        <AreaFiles files={files} />
+        <AreaFiles />
       </div>
 
       {/* Parameters */}
