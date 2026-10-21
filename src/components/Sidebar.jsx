@@ -92,7 +92,7 @@ const Sidebar = () => {
         onClick={() => setOpen(true)}
         aria-label="Open program areas"
         aria-expanded={open}
-        className="fixed left-3 top-3 z-40 rounded-md bg-white p-2 shadow md:hidden"
+        className="fixed left-3 top-16 z-40 rounded-md bg-white p-2 shadow md:hidden"
       >
         <svg
           width="24"
@@ -124,17 +124,7 @@ const Sidebar = () => {
         }`}
       >
         <div className="mb-6 flex h-7 items-center justify-between px-1">
-          <span className="text-sm font-semibold uppercase inconsolata">
-            Program Areas
-          </span>
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            aria-label="Close menu"
-            className="p-1 text-gray-500"
-          >
-            ✕
-          </button>
+          <span className="text-sm font-semibold uppercase">Program Areas</span>
         </div>
 
         <nav className="space-y-2">
@@ -162,7 +152,7 @@ const Sidebar = () => {
         <div
           className="
             group/sidebar absolute left-0 top-0
-            w-18 hover:w-72
+            w-18 hover:w-90
             min-h-full
             overflow-hidden
             rounded-r-lg
@@ -175,7 +165,7 @@ const Sidebar = () => {
           "
         >
           <h2 className="mb-6 flex h-7 items-center justify-center whitespace-nowrap">
-            <span className="text-sm font-semibold uppercase inconsolata">
+            <span className="text-sm font-semibold uppercase">
               <span className="group-hover/sidebar:hidden">Areas</span>
               <span className="hidden group-hover/sidebar:inline">
                 Program Areas

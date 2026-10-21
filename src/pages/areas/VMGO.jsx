@@ -17,24 +17,6 @@ const defaultArea = {
     email: "juan.delacruz@example.edu",
   },
 
-  files: [
-    {
-      id: 1,
-      name: "Vision and Mission Statement.pdf",
-      url: "#",
-    },
-    {
-      id: 2,
-      name: "Goals and Objectives.pdf",
-      url: "#",
-    },
-    {
-      id: 3,
-      name: "Student Handbook (VMGO section).pdf",
-      url: "#",
-    },
-  ],
-
   parameters: [
     {
       id: "A",
@@ -69,7 +51,7 @@ const VMGO = ({ area = defaultArea }) => {
 
         <FocalPerson focalPerson={focalPerson} />
 
-        <AreaFiles files={files} />
+        <AreaFiles />
       </div>
 
       {/* Parameters */}
