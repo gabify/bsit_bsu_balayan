@@ -7,6 +7,7 @@ import AreaLayout from "./layout/AreaLayout";
 import Homepage from "./pages/Homepage";
 import AreaPage from "./pages/AreaPages";
 import ProgramActivities from "./pages/bsit/ProgramActivities";
+import DirectoryTaskForce from "./pages/bsit/DirectoryTaskForce";
 import ScrollToTop from "./components/ScrollToTop";
 
 createRoot(document.getElementById("root")).render(
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
       <Route element={<HomeLayout />}>
         <Route path="/" element={<Homepage />} />
         <Route path="/activities" element={<ProgramActivities />} />
+        <Route path="/directory-task-force" element={<DirectoryTaskForce />} />
       </Route>
 
       {/* route for areas */}
