@@ -13,7 +13,7 @@ const AreaLayout = () => {
       <div className="flex flex-1">
         <Sidebar />
 
-        <main className="flex-1 min-h-[80vh]">
+        <main className="flex-1 min-h-[80vh] pt-6 md:pt-0">
           <Outlet />
         </main>
       </div>

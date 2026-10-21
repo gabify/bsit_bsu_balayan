@@ -92,7 +92,7 @@ const Sidebar = () => {
         onClick={() => setOpen(true)}
         aria-label="Open program areas"
         aria-expanded={open}
-        className="fixed left-3 top-3 z-40 rounded-md bg-white p-2 shadow md:hidden"
+        className="fixed left-3 top-16 z-40 rounded-md bg-white p-2 shadow md:hidden"
       >
         <svg
           width="24"
@@ -125,14 +125,6 @@ const Sidebar = () => {
       >
         <div className="mb-6 flex h-7 items-center justify-between px-1">
           <span className="text-sm font-semibold uppercase">Program Areas</span>
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            aria-label="Close menu"
-            className="p-1 text-gray-500"
-          >
-            ✕
-          </button>
         </div>
 
         <nav className="space-y-2">

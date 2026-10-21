@@ -85,18 +85,29 @@ const parseDate = (iso) => new Date(`${iso}T00:00:00`);
 
 const DateBlock = ({ iso, day }) => {
   const d = parseDate(iso);
+
   return (
-    <div className="w-20 shrink-0 text-center sm:w-28">
-      <p className="text-sm font-medium text-slate-500">
-        {d.toLocaleDateString("en-US", { weekday: "long" })}
-      </p>
-      <p className="text-5xl font-bold leading-none text-slate-900 sm:text-6xl">
-        {d.getDate()}
-      </p>
-      <p className="mt-1 text-sm text-slate-600">
-        {d.toLocaleDateString("en-US", { month: "long", year: "numeric" })}
-      </p>
-      <p className="mt-2 inline-block rounded-full bg-yellow-900 px-3 py-0.5 text-xs font-semibold text-yellow-50">
+    <div className="flex w-full items-center gap-3 sm:w-28 sm:shrink-0 sm:flex-col sm:items-center sm:gap-0 sm:text-center">
+      <div className="flex items-center gap-3 sm:flex-col sm:gap-0">
+        <p className="text-4xl font-bold leading-none text-slate-900 sm:mt-1 sm:text-6xl">
+          {d.getDate()}
+        </p>
+
+        <div className="sm:mt-1">
+          <p className="text-sm font-medium text-slate-500">
+            {d.toLocaleDateString("en-US", { weekday: "long" })}
+          </p>
+
+          <p className="text-sm text-slate-600">
+            {d.toLocaleDateString("en-US", {
+              month: "long",
+              year: "numeric",
+            })}
+          </p>
+        </div>
+      </div>
+
+      <p className="ml-auto inline-block rounded-full bg-yellow-900 px-3 py-1 text-xs font-semibold text-yellow-50 sm:ml-0 sm:mt-2">
         Day {day}
       </p>
     </div>
@@ -197,8 +208,14 @@ const ProgramActivities = () => {
 
         <ol className="mt-10 space-y-8">
           {activities.map((item) => (
-            <li key={item.day} className="flex gap-4 sm:gap-6">
+            <li
+              key={item.day}
+              className="flex flex-col gap-4 sm:flex-row sm:gap-6"
+            >
+              {/* Date: above the card on mobile, left on desktop */}
               <DateBlock iso={item.date} day={item.day} />
+
+              {/* Activity description */}
               <ActivityCard item={item} />
             </li>
           ))}
