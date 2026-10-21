@@ -1,5 +1,3 @@
-import React from "react";
-
 // Tailwind classes per delivery mode
 const MODE_STYLES = {
   Zoom: "bg-blue-100 text-blue-800",

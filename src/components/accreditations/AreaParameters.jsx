@@ -1,8 +1,6 @@
-import React from "react";
 import {
   ClipboardDocumentListIcon,
   ChevronRightIcon,
-  ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/24/outline";
 import SectionTitle from "./SectionTitle";
 

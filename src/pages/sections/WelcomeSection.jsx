@@ -1,7 +1,3 @@
-import React from "react";
-import HexagonPicture from "../../components/HexagonPicture";
-import HexagonBackground from "../../assets/canva_assets/background_hexagon.png";
-import HexagonBackgroundBottom from "../../assets/canva_assets/background_hexagon_bottom.png";
 import BSULogo from "../../assets/Batangas_State_Logo.png";
 
 const WelcomeSection = () => {
