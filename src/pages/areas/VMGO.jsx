@@ -3,6 +3,7 @@ import AreaDescription from "../../components/accreditations/AreaDescription";
 import FocalPerson from "../../components/accreditations/FocalPerson";
 import AreaFiles from "../../components/accreditations/AreaFiles";
 import AreaParameters from "../../components/accreditations/AreaParameters";
+import bg from "../../assets/bg-picture.jpg";
 
 const defaultArea = {
   code: "Area 1",
@@ -12,26 +13,46 @@ const defaultArea = {
     "This area covers the institution’s statement of its vision, mission, goals and objectives, how these are shared with stakeholders, and how well they are understood and reviewed.",
 
   focalPerson: {
-    name: "Juan Dela Cruz",
-    email: "juan.delacruz@example.edu",
+    name: "Dr. Jocelyn C. Banaybanay",
+    email: "jocelyn.banaybanay@g.bastate-u.edu.ph",
   },
 
   parameters: [
     {
       id: "A",
-      title: "Statement of VMGO",
-      description:
-        "Clarity and completeness of the stated vision, mission, goals and objectives.",
+      title: "Statement of Vission, Mission, Goals and Objectives",
+      description:[
+        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
+        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+      ]
     },
     {
       id: "B",
-      title: "Dissemination and acceptability",
-      description: "How the VMGO is shared with and accepted by stakeholders.",
+      title: "Dissemination and Acceptability",
+      description:[
+        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
+        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+      ]
     },
     {
       id: "C",
-      title: "Review and revision",
-      description: "The process used to review and update the VMGO.",
+      title: "Congruence and Implementation",
+      description:[
+        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
+        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+      ]
     },
   ],
 };
@@ -40,7 +61,7 @@ const VMGO = ({ area = defaultArea }) => {
   const { code, title, description, focalPerson, parameters } = area;
 
   return (
-    <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 text-slate-800">
+    <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 text-slate-800 relative isolate overflow-hidden">
       {/* Header */}
       <AreaHeader code={code} title={title} />
 
