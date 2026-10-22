@@ -68,7 +68,7 @@ const DirectoryModal = ({data}) => {
                                 <div className="absolute z-0">
                                     <div className="mb-10">
                                         <h2 className="mb-3 text-xl">{`Area ${selectedArea.area}`}</h2>
-                                        <div className="mb-4 h-1 w-16 bg-yellow-700" />
+                                        <div className="mb-4 h-1 w-16 bg-yellow-600" />
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-24 mb-10">
