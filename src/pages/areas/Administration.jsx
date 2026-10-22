@@ -1,4 +1,3 @@
-import React from "react";
 import AreaHeader from "../../components/accreditations/AreaHeader";
 import AreaDescription from "../../components/accreditations/AreaDescription";
 import FocalPerson from "../../components/accreditations/FocalPerson";
@@ -58,7 +57,7 @@ const defaultArea = {
 };
 
 const Administration = ({ area = defaultArea }) => {
-  const { code, title, description, focalPerson, files, parameters } = area;
+  const { code, title, description, focalPerson, parameters } = area;
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 text-slate-800">

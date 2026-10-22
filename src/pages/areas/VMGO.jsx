@@ -58,7 +58,7 @@ const defaultArea = {
 };
 
 const VMGO = ({ area = defaultArea }) => {
-  const { code, title, description, focalPerson, files, parameters } = area;
+  const { code, title, description, focalPerson, parameters } = area;
 
   return (
     <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 text-slate-800 relative isolate overflow-hidden">
