@@ -19,11 +19,11 @@ const defaultArea = {
   parameters: [
     {
       id: "A",
-      title: "Organization and Administration",
+      title: "Organization",
       description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        {title: 'Copy of Board Resolution approving the organizational structure and other relevant resolutions', link: 'https://drive.google.com/drive/folders/1IpcI0mDWL63QUxuqmIC1g-Un2aDczaHs?usp=drive_link'},
+        {title: 'Functional Chart', link: 'https://drive.google.com/drive/folders/1lnsiWyeaLM3YhlZcfD0Lnfpfb-9_2Dai?usp=drive_link'},
+        {title: 'Composition of the Administrative Council including its powers', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
         {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
         {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
         {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
