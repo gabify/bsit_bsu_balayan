@@ -19,38 +19,14 @@ const defaultArea = {
   parameters: [
     {
       id: "A",
-      title: "Curriculum and Program of Study",
+      title: "Instructional Process, Methodologies and Learning Opportunities",
       description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-      ]
-    },
-    {
-      id: "B",
-      title: "Instructional Processes and Methodologies",
-      description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-      ]
-    },
-    {
-      id: "C",
-      title: "Assessment of Student Learning",
-      description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+        { title: 'Compilation of updated course syllabi in all subjects', link: 'https://drive.google.com/drive/folders/1qdCwOJn8xNac0cNyUD8FVFg4o97F8tIr?usp=drive_link' },
+        { title: 'Evidence/s on remedial programs conducted', link: 'https://drive.google.com/file/d/16fVLLM05WASflV8JAlhSUm5mlDkKDDrS/view?usp=drive_link' },
+        { title: 'List of teaching strategies used in the different subject areas', link: 'https://drive.google.com/drive/folders/1febfNzT84HucJmlkmLd-SvUOK9AW5bN7?usp=drive_link' },
+        { title: 'Sample course requirements submitted by students', link: 'https://drive.google.com/drive/folders/17TkRNBzhctZKKtC2iVqLut2S8CfHZSgH?usp=drive_link' },
+        { title: 'Record of class observations', link: 'https://drive.google.com/drive/folders/1Yaj0KmS5uiWklMrbDWVrInoRt8sAJkpq?usp=drive_link' },
+        { title: 'List of academic linkages or consortia', link: 'https://drive.google.com/drive/folders/1vefONlcD1rVngMEaJukRKiibMqV0To5Z?usp=drive_link' }
       ]
     },
   ],

@@ -17,40 +17,23 @@ const defaultArea = {
   },
 
   parameters: [
-    {
-      id: "A",
-      title: "Library Resources and Collections",
-      description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-      ]
+     {
+        id : "A",
+        title: "A. ADMINISTRATION",
+        description : [
+          { title: 'Organizational Structure of the Library', link: 'https://drive.google.com/file/d/1kVCtAjTNA7a6W9EuaMrYXxmwCpuKinG2/view?usp=drive_link' },
+          { title: 'Profile and Functions of the Head Librarian', link: 'https://drive.google.com/file/d/1hUZxUqu5V-iOy3yPP_f9adlRH7aeUWIE/view?usp=drive_link' },
+          { title: 'Composition of the Library Advisory Committee including their functions', link: 'https://drive.google.com/file/d/1abn9OSEKNJ-kFeKqRZ_MLkOlVDbpekYg/view?usp=drive_link' }
+        ]
     },
     {
-      id: "B",
-      title: "Library Facilities and Equipment",
-      description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-      ]
-    },
-    {
-      id: "C",
-      title: "Library Services and Management",
-      description:[
-        {title: 'Vision Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Mission Statement', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the goals of the academic unit', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Statement of the program objectives', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
-        {title: 'Copy the charter of the institution', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'}, 
-        {title: 'Minutes of the meeting in the formulation, review and revision of VMGO', link: 'https://drive.google.com/file/d/1uB1VvaS8HglyGC76urV0Ob5MvQ1VIQ2V/view?usp=drive_link'},
+      id : "B",
+      title: "STAFF PERSONNEL",
+      description : [
+        { title: 'B.1.  Profile of the Library staff personnel', link: 'https://drive.google.com/file/d/1Kmf7olLdTN0W7OQiO5a8IeruORFnuUi_/view?usp=drive_link' },
+        { title: 'B.2.  Evidence of Compliance on Adequacy of Library Personnel ', link: 'https://drive.google.com/file/d/1JJzV7XngLSYm1OyFPbsSVSEqFdA82r_Q/view?usp=drive_link' },
+        { title: 'B.3. Copy of the Library Staff Development Plan', link: 'https://drive.google.com/file/d/1VB6oEmbrWDL2LHdQi4ud5I5g0W6ZSh-x/view?usp=drive_link' },
+        { title: 'B.4. Library Staff Compensation', link: 'https://drive.google.com/file/d/1uy4CoqJUWbxL782vvtlPVkVpAtoX0irZ/view?usp=drive_link' }
       ]
     },
   ],
