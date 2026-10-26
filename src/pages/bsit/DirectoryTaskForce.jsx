@@ -22,6 +22,12 @@ import sirDing from "../../assets/pics/sirDing.jpg";
 import sirJoel from "../../assets/pics/sirJoel.jpg";
 import sirRuel from "../../assets/pics/sirRuel.jpg";
 import sirWendy from "../../assets/pics/sirWendy.jpg";
+import sirYap from "../../assets/pics/sirYap.jpg";
+import sirPosadas from "../../assets/pics/sirPosadas.jpg";
+import sirMark from "../../assets/pics/sirMark.jpg";
+import sirIvan from "../../assets/pics/sirIvan.png";
+import mamKarlaV from "../../assets/pics/mamKarlaV.jpg";
+import mamKen from "../../assets/pics/mamKen.jpg";
 
 import { useState } from "react";
 
@@ -41,8 +47,8 @@ const DirectoryTaskForce = () =>{
     const specialCommittee = {
         area: 'Committee on AVP and Website Development',
         committee: [
-            {name: 'Mr. Ivan Gabriel B. Talaoc', position: 'Member'},
-            {name: 'Mr. Angelo L. Posadas', position: 'Member'},
+            {name: 'Mr. Ivan Gabriel B. Talaoc', position: 'Member', image: sirIvan},
+            {name: 'Mr. Angelo L. Posadas', position: 'Member', image: sirPosadas},
             {name: 'OJT Students', position: 'Member'},
         ]
     }
@@ -63,6 +69,7 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Mrs. Annalyn G. Macatangay', position: 'Chairman', image: mamAnn},
                 {name: 'Asst. Prof. Nerissa V. Rodriguez', position: 'Member', image: mamNeri},
+                {name: 'Ms. Catherine B. Dinamarca', position: 'Member', image: mamKen},
                 {name: 'Mrs. Vince Sharmaine F. Villanueva', position: 'Member'}
             ]
         },
@@ -72,9 +79,9 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Dr. Kathleen B. Bayungan', position: 'Chairman', image: docKaye},
                 {name: 'Dr. Marian C. Panganiban', position: 'Member', image: docMarian},
-                {name: 'Ms. Carla M. Villalobos', position: 'Member'},
+                {name: 'Ms. Carla M. Villalobos', position: 'Member', image: mamKarlaV},
                 {name: 'Ms. Noelisa M. Benter', position: 'Member', image: mamBenter},
-                {name: 'Mr. Christian Jade Yap', position: 'Member'}
+                {name: 'Mr. Christian Jade Yap', position: 'Member', image: sirYap}
             ]
         },
         {
@@ -129,7 +136,7 @@ const DirectoryTaskForce = () =>{
             area: 'IX', 
             title: 'Laboratories',
             committe: [
-                {name: 'Mr. Mark Anthony P. Ribaldo', position: 'Chairman'},
+                {name: 'Mr. Mark Anthony P. Ribaldo', position: 'Chairman', image: sirMark},
                 {name: 'Engr. Jayvee A. Dimaunahan', position: 'Member'},
                 {name: 'Mr. Allan Carlo M. Lastrilla', position: 'Member'},
             ]
@@ -170,21 +177,24 @@ const DirectoryTaskForce = () =>{
                         <div className="w-24 lg:w-72 h-0.5 bg-yellow-500" />
                     </article>
 
-                    <svg
-                        className={`h-5 w-5 transition-transform duration-300 text-gray-50 ${
-                            openSteering ? "rotate-180" : "rotate-0"
-                        }`}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                    >
-                        <path
-                        d="m6 9 6 6 6-6"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        />
-                    </svg>
+                    <div className="flex items-center-safe gap-0 lg:gap-2 text-gray-50">
+                        <small className="text-xs lg:text-lg cursor-pointer hidden lg:block">Steering Committee</small>
+                        <svg
+                            className={`h-5 w-5 transition-transform duration-300 text-gray-50 ${
+                                openSteering ? "rotate-180" : "rotate-0"
+                            }`}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                        >
+                            <path
+                            d="m6 9 6 6 6-6"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            />
+                        </svg>
+                    </div>
                 </section>
                 <div
                     className={`grid transition-[grid-template-rows]
@@ -224,6 +234,8 @@ const DirectoryTaskForce = () =>{
                 <DirectoryModal data={areas} />
             </section>
 
+            <h3 className="pt-10 pb-3 text-center font-bold text-lg lg:text-2xl">Committe on Audio Visual Presenttation (AVP) &  Website Development</h3>
+
             <section className="mb-3 mt-3 overflow-hidden rounded-lg border border-gray-200">
                 <section 
                     className="bg-yellow-900 px-2.5 pt-3 pb-3 rounded-t-xl flex items-end justify-between"
@@ -231,7 +243,7 @@ const DirectoryTaskForce = () =>{
                     <article>
                         <div className="flex gap-1 justify-start items-center mb-2">
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 lg:w-18 text-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-18 lg:w-28 text-gray-200">
                                     <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clip-rule="evenodd" />
                                 </svg>
                             </div>
@@ -250,9 +262,22 @@ const DirectoryTaskForce = () =>{
                         <div>
                             <ul className="space-y-3 mt-2">
                                 {specialCommittee.committee.map((c, index) =>(
-                                    <li key={index} className="py-2 px-4 hover:bg-yellow-900 hover:text-gray-50 transition-all hover:border-s-4 border-yellow-700">
-                                        <h3 className="-mb-1.5 font-medium text-sm cursor-default lg:text-lg">{c.name}</h3>
-                                        <small className="font-light text-xs tracking-wide cursor-default lg:text-md">{c.position}</small>
+                                    <li key={index} className="py-2 px-4">
+                                        <div className="flex gap-1 justify-start items-center mb-2">
+                                            <div>
+                                                {Object.hasOwn(c, "image") ? (
+                                                    <img src={c.image} alt={c.name} className="object-cover object-[30%_20%] aspect-square w-18 lg:w-28 rounded-full"/>
+                                                ): (
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-18 lg:w-28 text-yellow-900">
+                                                        <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clip-rule="evenodd" />
+                                                    </svg>
+                                                )}
+                                            </div>
+                                            <div>
+                                                <h3 className="-mb-1.5 font-medium text-sm cursor-default lg:text-lg">{c.name}</h3>
+                                                <small className="font-light text-xs tracking-wide cursor-default lg:text-md">{c.position}</small>
+                                            </div>
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
