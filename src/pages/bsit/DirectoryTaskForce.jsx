@@ -28,6 +28,17 @@ import sirMark from "../../assets/pics/sirMark.jpg";
 import sirIvan from "../../assets/pics/sirIvan.png";
 import mamKarlaV from "../../assets/pics/mamKarlaV.jpg";
 import mamKen from "../../assets/pics/mamKen.jpg";
+import mamJubi from "../../assets/pics/mamJubi.jpg";
+import mamRona from "../../assets/pics/mamRona.jpg";
+import mamVince from "../../assets/pics/mamVince.jpg";
+import mamBernadette from "../../assets/pics/mamBernadette.jpg";
+import mamCecil from "../../assets/pics/mamCecil.jpg";
+import mamMajoy from "../../assets/pics/mamMajoy.jpg";
+import sirEric from "../../assets/pics/sirEric.jpg";
+import sirArone from "../../assets/pics/sirArone.jpg";
+import mamJa from "../../assets/pics/mamJa.jpg";
+import mamBadet from "../../assets/pics/mamBadet.jpg";
+import sirJavo from "../../assets/pics/sirJavo.jpg";
 
 import { useState } from "react";
 
@@ -60,7 +71,7 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Dr. Jocelyn C. Banaybanay', position: 'Chairman', image: docBB},
                 {name: 'Mrs. Teresita N. Flores', position: 'Member', image: mamFlores},
-                {name: 'Engr. Jasmin E. Cabuay', position: 'Member'}
+                {name: 'Engr. Jasmin E. Cabuay', position: 'Member', image: mamJa}
             ]
         },
         {
@@ -70,7 +81,7 @@ const DirectoryTaskForce = () =>{
                 {name: 'Mrs. Annalyn G. Macatangay', position: 'Chairman', image: mamAnn},
                 {name: 'Asst. Prof. Nerissa V. Rodriguez', position: 'Member', image: mamNeri},
                 {name: 'Ms. Catherine B. Dinamarca', position: 'Member', image: mamKen},
-                {name: 'Mrs. Vince Sharmaine F. Villanueva', position: 'Member'}
+                {name: 'Mrs. Vince Sharmaine F. Villanueva', position: 'Member', image: mamVince}
             ]
         },
         {
@@ -90,8 +101,8 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Mrs. Ma. Gizelle G. Calaud', position: 'Chairman', image: mamG},
                 {name: 'Asst. Prof. Irenea T. Diaz', position: 'Member', image: mamDiaz},
-                {name: 'Ms. Jubilee C. Delos Reyes', position: 'Member'},
-                {name: 'Ms. Rona I. Garcia', position: 'Member'}
+                {name: 'Ms. Jubilee C. Delos Reyes', position: 'Member', image: mamJubi},
+                {name: 'Ms. Rona I. Garcia', position: 'Member', image: mamRona}
             ]
         },
         {
@@ -99,7 +110,7 @@ const DirectoryTaskForce = () =>{
             title: 'Research',
             committe: [
                 {name: 'Dr. Marites M. Abdon', position: 'Chairman', image: docAbdon},
-                {name: 'Engr. John Arone M. Tenorio', position: 'Member'},
+                {name: 'Engr. John Arone M. Tenorio', position: 'Member', image: sirArone},
 
             ]
         },
@@ -109,15 +120,15 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Engr. Jean Karla M. Castillo', position: 'Chairman', image: mamKarla},
                 {name: 'Engr. Arvin M. Delos Reyes', position: 'Member'},
-                {name: 'Ms. Mary Joy Ramos', position: 'Member'},
+                {name: 'Ms. Mary Joy Ramos', position: 'Member', image: mamMajoy},
             ]
         },
         {
             area: 'VII', 
             title: 'Library',
             committe: [
-                {name: 'Mrs. Ma. Cecilia D. De Vera', position: 'Chairman'},
-                {name: 'Ms. Bernadette V. Rodriguez', position: 'Member'},
+                {name: 'Mrs. Ma. Cecilia D. De Vera', position: 'Chairman', image: mamCecil},
+                {name: 'Ms. Bernadette V. Rodriguez', position: 'Member', image: mamBernadette},
             ]
         },
         {
@@ -137,7 +148,7 @@ const DirectoryTaskForce = () =>{
             title: 'Laboratories',
             committe: [
                 {name: 'Mr. Mark Anthony P. Ribaldo', position: 'Chairman', image: sirMark},
-                {name: 'Engr. Jayvee A. Dimaunahan', position: 'Member'},
+                {name: 'Engr. Jayvee A. Dimaunahan', position: 'Member', image: sirJavo},
                 {name: 'Mr. Allan Carlo M. Lastrilla', position: 'Member'},
             ]
         },
@@ -147,7 +158,7 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Mr. Ruel M. Panday', position: 'Chairman', image: sirRuel},
                 {name: 'Engr. Raquel S. Benitez', position: 'Member', mamRaquel},
-                {name: 'Ms. Bernadette T. Endaya', position: 'Member'},
+                {name: 'Ms. Bernadette T. Endaya', position: 'Member', image: mamBadet},
             ]
         },
     ]
@@ -243,9 +254,7 @@ const DirectoryTaskForce = () =>{
                     <article>
                         <div className="flex gap-1 justify-start items-center mb-2">
                             <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-18 lg:w-28 text-gray-200">
-                                    <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" clip-rule="evenodd" />
-                                </svg>
+                                <img src={sirEric} alt={"sir Eric"} className="object-cover object-[30%_20%] aspect-square w-18 lg:w-32 rounded-full"/>
                             </div>
                             <div className="text-gray-100">
                                 <h2 className="font-semibold -mb-1.5 tracking-tight lg:text-lg">Mr. Eric E. Ungos</h2>
