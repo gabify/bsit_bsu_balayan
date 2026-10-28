@@ -39,6 +39,8 @@ import sirArone from "../../assets/pics/sirArone.jpg";
 import mamJa from "../../assets/pics/mamJa.jpg";
 import mamBadet from "../../assets/pics/mamBadet.jpg";
 import sirJavo from "../../assets/pics/sirJavo.jpg";
+import sirAC from "../../assets/pics/sirAC.jpg";
+import sirArvin from "../../assets/pics/sirArvin.jpg";
 
 import { useState } from "react";
 
@@ -119,7 +121,7 @@ const DirectoryTaskForce = () =>{
             title: 'Extension and Community Involvement',
             committe: [
                 {name: 'Engr. Jean Karla M. Castillo', position: 'Chairman', image: mamKarla},
-                {name: 'Engr. Arvin M. Delos Reyes', position: 'Member'},
+                {name: 'Engr. Arvin M. Delos Reyes', position: 'Member', image: sirArvin},
                 {name: 'Ms. Mary Joy Ramos', position: 'Member', image: mamMajoy},
             ]
         },
@@ -149,7 +151,7 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Mr. Mark Anthony P. Ribaldo', position: 'Chairman', image: sirMark},
                 {name: 'Engr. Jayvee A. Dimaunahan', position: 'Member', image: sirJavo},
-                {name: 'Mr. Allan Carlo M. Lastrilla', position: 'Member'},
+                {name: 'Mr. Allan Carlo M. Lastrilla', position: 'Member', image: sirAC},
             ]
         },
         {
@@ -157,7 +159,7 @@ const DirectoryTaskForce = () =>{
             title: 'Administration',
             committe: [
                 {name: 'Mr. Ruel M. Panday', position: 'Chairman', image: sirRuel},
-                {name: 'Engr. Raquel S. Benitez', position: 'Member', mamRaquel},
+                {name: 'Engr. Raquel S. Benitez', position: 'Member', image: mamRaquel},
                 {name: 'Ms. Bernadette T. Endaya', position: 'Member', image: mamBadet},
             ]
         },
