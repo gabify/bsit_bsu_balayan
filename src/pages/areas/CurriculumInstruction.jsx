@@ -1,7 +1,6 @@
 import AreaHeader from "../../components/accreditations/AreaHeader";
 import AreaDescription from "../../components/accreditations/AreaDescription";
 import FocalPerson from "../../components/accreditations/FocalPerson";
-import AreaFiles from "../../components/accreditations/AreaFiles";
 import AreaParameters from "../../components/accreditations/AreaParameters";
 
 const defaultArea = {
@@ -45,8 +44,6 @@ const CurriculumInstruction = ({ area = defaultArea }) => {
         <AreaDescription description={description} />
 
         <FocalPerson focalPerson={focalPerson} />
-
-        <AreaFiles />
       </div>
 
       {/* Parameters */}

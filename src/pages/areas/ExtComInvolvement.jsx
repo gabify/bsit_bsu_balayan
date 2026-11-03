@@ -1,7 +1,6 @@
 import AreaHeader from "../../components/accreditations/AreaHeader";
 import AreaDescription from "../../components/accreditations/AreaDescription";
 import FocalPerson from "../../components/accreditations/FocalPerson";
-import AreaFiles from "../../components/accreditations/AreaFiles";
 import AreaParameters from "../../components/accreditations/AreaParameters";
 
 const defaultArea = {
@@ -13,7 +12,7 @@ const defaultArea = {
 
   focalPerson: {
     name: "Engr. Jean karla M. Castillo",
-    email: "jeankarla.castillo@g.batstaate-u.edu.ph",
+    email: "jeankarla.castillo@g.batstate-u.edu.ph",
   },
 
   files: [
@@ -91,8 +90,6 @@ const ExtComInvolvement = ({ area = defaultArea }) => {
         <AreaDescription description={description} />
 
         <FocalPerson focalPerson={focalPerson} />
-
-        <AreaFiles />
       </div>
 
       {/* Parameters */}

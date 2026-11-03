@@ -1,9 +1,7 @@
 import AreaHeader from "../../components/accreditations/AreaHeader";
 import AreaDescription from "../../components/accreditations/AreaDescription";
 import FocalPerson from "../../components/accreditations/FocalPerson";
-import AreaFiles from "../../components/accreditations/AreaFiles";
 import AreaParameters from "../../components/accreditations/AreaParameters";
-import bg from "../../assets/bg-picture.jpg";
 
 const defaultArea = {
   code: "Area 1",
@@ -68,8 +66,6 @@ const VMGO = ({ area = defaultArea }) => {
         <AreaDescription description={description} />
 
         <FocalPerson focalPerson={focalPerson} />
-
-        <AreaFiles />
       </div>
 
       {/* Parameters */}
