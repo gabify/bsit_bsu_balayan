@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import ReferenceModal from "../../components/ReferenceModal";
 
 const resources = [
-  {
+ /*  {
     title: "Program Activities",
     description: "Events, seminars, and outreach run by the BSIT program.",
     to: "/activities",
     path: "M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5",
-  },
+  }, */
   {
     title: "Directory Task Force",
     description: "Faculty and staff assigned to each accreditation area.",
@@ -45,7 +45,7 @@ const BSITSection = () => {
         </div>
 
         {/* Cards (below) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-5">
           {resources.map((item) => (
             <Link
               key={item.title}

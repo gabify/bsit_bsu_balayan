@@ -8,23 +8,23 @@ const documents = [
   {
     title: "Curriculum",
     description: "Bachelor of Science in Information Technology curriculum.",
-    href: "/documents/curriculum.pdf",
+    href: "https://drive.google.com/file/d/12MRE44nNdQNj_S_GoEI1BKj5XQqfw3UK/view?usp=drive_link",
   },
   {
     title: "Certificate of Program Compliance",
     description: "Official certificate of program compliance.",
-    href: "/documents/certificate-of-program-compliance.pdf",
+    href: "https://drive.google.com/file/d/1mji5Ji7IPedr0PRGXSKiWMCYQ7MFkAl4/view?usp=drive_link",
   },
   {
     title: "CMO 25 s. 2015",
     description: "Policies, Standards and Guidelines for BSIT.",
-    href: "/documents/cmo-25-s-2015.pdf",
+    href: "https://drive.google.com/file/d/1H6YDUbjx1JOWu3nl2IU25OheRzh7IZZR/view?usp=drive_link",
   },
-  {
+  /* {
     title: "AACCUP Technical Review Board Action",
     description: "Preliminary Survey Visit (PSV) review documents.",
     href: "/documents/aaccup-technical-review-board-action.pdf",
-  },
+  }, */
 ];
 
 const ReferenceModal = () => {
@@ -108,7 +108,7 @@ const ReferenceModal = () => {
             </div>
 
             {/* Four-Column Document Grid */}
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-1 lg:grid-cols-3">
               {documents.map((document) => (
                 <a
                   key={document.title}
