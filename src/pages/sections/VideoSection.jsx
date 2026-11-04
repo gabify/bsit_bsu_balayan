@@ -54,42 +54,7 @@ const VideoSection = () => {
 
               {/* Video placeholder (16:9) */}
               <div className="relative aspect-video w-full overflow-hidden rounded-sm bg-slate-900 shadow-xl">
-                {/* Poster background */}
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-0 bg-linear-to-br from-slate-800 via-slate-900 to-slate-950"
-                />
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-0 opacity-30"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to right, rgba(255,255,255,0.12) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.12) 1px, transparent 1px)",
-                    backgroundSize: "32px 32px",
-                  }}
-                />
-
-                {/* Play button */}
-                <button
-                  type="button"
-                  aria-label="Play campus video"
-                  className="absolute inset-0 m-auto h-20 w-20 md:h-24 md:w-24 rounded-full bg-red-700 text-white flex items-center justify-center shadow-lg transition-transform hover:scale-105 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/70"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    className="h-8 w-8 md:h-10 md:w-10 ml-1"
-                    fill="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </button>
-
-                {/* Placeholder caption */}
-                <div className="absolute bottom-0 left-0 right-0 flex items-center justify-between px-4 py-3 bg-slate-950/60 text-xs text-slate-300">
-                  <span>Video placeholder</span>
-                  <span>16:9</span>
-                </div>
+                <iframe src="https://drive.google.com/file/d/1IZdO4paSR2U91YnVi2nHGZf8UU6LlUQb/preview" className="w-full h-full"></iframe>
               </div>
             </div>
           </div>
