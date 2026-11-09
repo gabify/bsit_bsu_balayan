@@ -53,15 +53,15 @@ const defaultArea = {
             {title: "Organizational Structure of the Extension Units", link: "https://drive.google.com/file/d/1fmfF33Fep63kOcFxNI3-zD4zPTfL0nJc/view?usp=drive_link"},
             {title: "Profile of the Unit Head and his_her staff. Profile of the Unit Head and his_her staff. Profile of the Unit Head and his_her staff", link: "https://drive.google.com/file/d/1MeQPrKqCooAaCu9LF39oxuRNPp65jA9Q/view?usp=drive_link"},
             {title: "Operational plan of the Extension Program, with focus on implementation strategies", link: "https://drive.google.com/file/d/1ldL8QmO8AepBssyuSixIEv7gK5MtI981/view?usp=drive_link"},
-            {title: "Roster/Experts for extension projects, if necessary", link: ""},
+            {title: "Roster/Experts for extension projects, if necessary", link: "https://drive.google.com/file/d/1pZorIsKWKpApGLo0KsAOvtSVisXyVunK/view?usp=drive_link"},
             {title: "Evidence of transfer of appropriate technology to the target clientele", link: "https://drive.google.com/file/d/16vKUne3CvnZLC7JFYnShU43qWL2YgXjL/view?usp=drive_link"},
-            {title: "Samples of packaged technologies/news/information disseminated to the clientele", link: ""},
+            {title: "Samples of packaged technologies/news/information disseminated to the clientele", link: "https://drive.google.com/file/d/1MCfW9fuRDb4FtkTBPHkjtd-vLVkTGJ5r/view?usp=drive_link"},
             {title: "Copy of the Extension Manual", link: "https://drive.google.com/file/d/1U_wDGUapI4hyc9zelDzFuNayfhXZrzuV/view?usp=drive_link"},
             {title: "Copy of the monitoring and evaluation instrument/s", link: "https://drive.google.com/file/d/1m-MkfaI3ap1OW_T5rVuIypU7egAfcjdc/view?usp=drive_link"},
             {title: "Sample accomplishment and terminal reports", link: "https://drive.google.com/file/d/16rbrsY07yFS_T3tmOeleK_XurvHnOazT/view?usp=drive_link"},
             {title: "Copy of the budgetary allocation for the extension program", link: "https://drive.google.com/file/d/1ROvQrytEfhNffu_iyEdXYSHjCNfXcF6o/view?usp=drive_link"},
             {title: "Evidences of outsourcing for fund augmentation", link: "https://drive.google.com/file/d/1Kwh4INnle9w-dMqyGVVwwtBe7LAU5UhH/view?usp=drive_link"},
-            {title: "Evidence for outsourcing for technical assistance and service inputs from other agencies", link: "https://drive.google.com/file/d/1FRB82M1lSTN-JFTc2qXcyrB343zar5jH/view?usp=drive_link"}
+            {title: "Evidence for outsourcing for technical assistance and service inputs from other agencies", link: "https://drive.google.com/file/d/1wtH3I3bYZzmXKwFdoAqdRKp5BVksgAAh/view?usp=drive_link"}
         ]
     },
     {
