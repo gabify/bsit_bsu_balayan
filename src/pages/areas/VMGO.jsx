@@ -20,34 +20,34 @@ const defaultArea = {
           id: "A",
           title: "Statement of Vision, Mission, Goals and Objectives",
           description: [
-              {title: "Vision Statement", link: "https://drive.google.com/drive/folders/12TlEJ3kZXWG5PalAOKk9z1dugHCDfMWQ?usp=drive_link"},
-              {title: "Mission Statement", link: "https://drive.google.com/drive/folders/1ZdpW__LbeNHKoHAXVSeQrCHdOhSaKX_i?usp=drive_link"},
-              {title: "Statement of the Goals of the Academic Units", link: "https://drive.google.com/file/d/1CaEG-LI7Sdv5iHuRSKiDUQwWp0vPyk_K/view?usp=drive_link"},
-              {title: "Statement of the Program Objectives", link: "https://drive.google.com/file/d/1v7lYqKqHZWOpHIhZqhkqOlt0awzFwkvK/view?usp=drive_link"},
-              {title: "Copy of the Charter of the Institution", link: "https://drive.google.com/file/d/13rbCJ0sChPRfptoyEN_ezlB0bfmrisXT/view?usp=drive_link"},
-              {title: "Minutes of the Meeting in the Formulation, Review and Revision of the VMGO", link: "https://drive.google.com/drive/folders/1QqAq3_VDBwp9IGWw_5Pc9_5uLsulg0aw?usp=drive_link"},
-              {title: "File Copies of Letter of Invitation to Participants", link: "https://drive.google.com/drive/folders/1PhdOT68sxDkAKxUNw1-pHarQt9Jd0zol?usp=drive_link"},
-              {title: "Attendance Record of Stakeholder-Participants", link: "https://drive.google.com/drive/folders/14imtkUwmbQvepmwOqXW3XYtqBkOJ9-bs?usp=drive_link"},
-              {title: "Copies of CMO's Relevant to VMGO Formulation, if any", link: "https://drive.google.com/drive/folders/1UZ-VugkK7o6H_aE0mpkxU6NA09EnhvxW?usp=drive_link"}
+              {title: "Vision Statement", link: "https://drive.google.com/file/d/14Cmzt2ljqZ05GPtoUVuuotaMqMQXe8Tg/view?usp=drive_link"},
+              {title: "Mission Statement", link: "https://drive.google.com/file/d/1d7asP2moKdfl4gFhU1DmmALa5KYT8XtP/view?usp=drive_link"},
+              {title: "Statement of the Goals of the Academic Units", link: "https://drive.google.com/file/d/1OzPHx6oA-XrhywFqtDaIyp80qcXl6IUV/view?usp=drive_link"},
+              {title: "Statement of the Program Objectives", link: "https://drive.google.com/file/d/1QC31afdksw9hbMiaKEShQaf_9Yp9DeB0/view?usp=drive_link"},
+              {title: "Copy of the Charter of the Institution", link: "https://drive.google.com/file/d/1jOnL6-JEPP-HysLRI401VNaADeHe92nN/view?usp=drive_link"},
+              {title: "Minutes of the Meeting in the Formulation, Review and Revision of the VMGO", link: "https://drive.google.com/file/d/16vWuk50MbDM5P-fvDVv1ukYYukLpi-G6/view?usp=drive_link"},
+              {title: "File Copies of Letter of Invitation to Participants", link: "https://drive.google.com/file/d/1ulqINJ5kxwXxmdc3ruZwQQ6OpMiJluR4/view?usp=drive_link"},
+              {title: "Attendance Record of Stakeholder-Participants", link: "https://drive.google.com/file/d/1MIS4Ez137nDMsgcexgW_zBME9nMja_tp/view?usp=drive_link"},
+              {title: "Copies of CMO's Relevant to VMGO Formulation, if any", link: "https://drive.google.com/file/d/1ix-7nbj9Oipui6IY-7429NiCQQSMeQp3/view?usp=drive_link"}
           ]
       },
       {
           id: "B",
           title: "Dissemination and Acceptability",
           description: [
-              {title: "Display Boards on Which the VMGO Is Posted", link: "https://drive.google.com/drive/folders/17skyObwlV9Nj-TJwFHK8UvOG1uQOuXhp?usp=drive_link"},
-              {title: "Samples of Dissemination Materials (Brochures, Leaflets, Flyers, etc.)", link: "https://drive.google.com/drive/folders/1yyCxp7DFttu5wakAhTboW95NDqcVZMQu?usp=drive_link"},
-              {title: "Evidence of Awareness and Acceptability of VMGO", link: "https://drive.google.com/file/d/1o5ZG8V8kmDWETQaHy912sekXJWlFSYq4/view?usp=drive_link"}
+              {title: "Display Boards on Which the VMGO Is Posted", link: "https://drive.google.com/file/d/1KQ76MQMV_uQaCdzk78m4SDagBZXoYC-V/view?usp=drive_link"},
+              {title: "Samples of Dissemination Materials (Brochures, Leaflets, Flyers, etc.)", link: "https://drive.google.com/file/d/1RQw_Q3mvg3Uj8cFaneyuG_J0OcmDIe3p/view?usp=drive_link"},
+              {title: "Evidence of Awareness and Acceptability of VMGO", link: "https://drive.google.com/file/d/12ZLIKx1aCoLUkNxj9__sEmzylxMpg5MK/view?usp=drive_link"}
           ]
       },
       {
           id: "C",
           title: "Congruence and Implementation",
           description: [
-              {title: "Congruence Between Educational Practices/Activities and the VMGO", link: "https://drive.google.com/drive/folders/1-Vg3SGfBwOMjV-isbkidFG5yV2nGvZ6F?usp=drive_link"},
-              {title: "Rewards/Citations Received by the Program Under Survey", link: "https://drive.google.com/drive/folders/1UJmMGD_JFK3lVmE6ZoCk4vLKqebv_PtT?usp=drive_link"},
-              {title: "List of Linkages, Consortia and Networking", link: "https://drive.google.com/file/d/1Fd6FMbspapXJV12LpVSamC44tn-gVyuG/view?usp=drive_link"},
-              {title: "Data on Employability of Graduates", link: "https://drive.google.com/file/d/1f7Yz5mdJ2PZKam9QHsa8PmcN1D24EUP2/view?usp=drive_link"}
+              {title: "Congruence Between Educational Practices/Activities and the VMGO", link: "https://drive.google.com/file/d/1MZtPv1O1fa94Ute5Io7sL7L0xvs60n34/view?usp=drive_link"},
+              {title: "Rewards/Citations Received by the Program Under Survey", link: "https://drive.google.com/file/d/1T7BPsqgb4hnszcpyI5pKtWcTNLOrg17I/view?usp=drive_link"},
+              {title: "List of Linkages, Consortia and Networking", link: "https://drive.google.com/file/d/1LheWEKct9yMSFL-zwRwnPINR7gi_ujUA/view?usp=drive_link"},
+              {title: "Data on Employability of Graduates", link: "https://drive.google.com/file/d/1GKpQAVf5l_xy8W8IeZLVbK2jldigbXkU/view?usp=drive_link"}
           ]
 
       }
