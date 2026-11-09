@@ -59,7 +59,7 @@ const defaultArea = {
         id: "E",
         title: "OFFICES, FUNCTION ROOMS AND STAFF ROOMS",
         description: [
-            {title: "Photographs of offices and function rooms", link: "https://drive.google.com/file/d/10KrbFhmbnG6w88DwLQc6Pxoi0JnEoybZ/view?usp=drive_link"},
+            {title: "Photographs of offices and function rooms", link: "https://drive.google.com/file/d/1doS6ZUApPL6LhywQxW1XVAFLHg2i7Jha/view?usp=drive_link"},
             {title: "Inventory of equipment, amenities and supplies in function rooms and offices", link: "https://drive.google.com/file/d/1qpZyAZTZ3u9KB7FqW8r4Pe0jmu8Mpye0/view?usp=drive_link"},
             {title: "Availability of toilets and storeroom, where needed", link: "https://drive.google.com/file/d/10nSH2XMdyoqjdOOseVu2ORKldjvhBvYo/view?usp=drive_link"},
             {title: "List and description of function rooms (administrative office, faculty rooms, faculty lounge, music room, conference hall,", link: "https://drive.google.com/file/d/1iVbqf9wJq7BytUwmtgIuFWglu-iwMhhY/view?usp=drive_link"},
@@ -109,7 +109,7 @@ const defaultArea = {
         description: [
             {title: "Inventory of Equipment, Furniture and Amenities", link: "https://drive.google.com/file/d/1KcWL5YA9biHyXqRcFesMgKEFRu2eEchq/view?usp=drive_link"}
         ]
-    },
+    }
   ],
 };
 

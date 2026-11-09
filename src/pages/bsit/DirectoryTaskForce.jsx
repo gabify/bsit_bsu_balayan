@@ -41,6 +41,7 @@ import mamBadet from "../../assets/pics/mamBadet.jpg";
 import sirJavo from "../../assets/pics/sirJavo.jpg";
 import sirAC from "../../assets/pics/sirAC.jpg";
 import sirArvin from "../../assets/pics/sirArvin.jpg";
+import sirArjay from "../../assets/pics/sirArjay.jpg";
 
 import { useState } from "react";
 
@@ -92,7 +93,8 @@ const DirectoryTaskForce = () =>{
             committe: [
                 {name: 'Dr. Kathleen B. Bayungan', position: 'Chairman', image: docKaye},
                 {name: 'Dr. Marian C. Panganiban', position: 'Member', image: docMarian},
-                {name: 'Ms. Carla M. Villalobos', position: 'Member', image: mamKarlaV},
+                {name: 'Mr. Ar-Jay B. Cabungcal', position: 'Member', image: sirArjay},
+                {name: 'Mr. Carla M. Villalobos', position: 'Member', image: mamKarlaV},
                 {name: 'Ms. Noelisa M. Benter', position: 'Member', image: mamBenter},
                 {name: 'Mr. Christian Jade Yap', position: 'Member', image: sirYap}
             ]

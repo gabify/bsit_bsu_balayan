@@ -92,7 +92,7 @@ const defaultArea = {
             {title: "Evidence on the use of the Personnel Evaluation results to improve performance and delivery of services", link: "https://drive.google.com/drive/folders/155em8r0bm-x0Sr-YLDzRoZ400Bwkc4GY?usp=drive_link"},
             {title: "Annual Reports", link: "https://drive.google.com/drive/folders/1qGQI3D9DJl5gQV5g6a48ldbrwvYONYne?usp=drive_link"}
         ]
-    },
+    }
   ],
 };
 

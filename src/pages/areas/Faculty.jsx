@@ -16,7 +16,7 @@ const defaultArea = {
   },
 
   parameters: [
-    {
+   {
         id: "A",
         title: "Academic Qualifications and Professional Experience",
         description: [

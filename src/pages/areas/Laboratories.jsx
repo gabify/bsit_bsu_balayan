@@ -16,7 +16,7 @@ const defaultArea = {
   },
 
   parameters: [
-    {
+     {
         id: "A",
         title: "Laboratories-Shops-Facilities",
         description: [
@@ -60,7 +60,7 @@ const defaultArea = {
         description: [
             {title: "Evidence of compliance on the requirements and operation of laboratories, if applicable", link: "https://drive.google.com/drive/folders/1uxgIt4CLv3hshXed3o0rDcyqIFF1CgnY?usp=drive_link"}
         ]
-    },
+    }
   ],
 };
 

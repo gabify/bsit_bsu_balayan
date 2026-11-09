@@ -17,16 +17,16 @@ const defaultArea = {
 
   parameters: [
     {
-        id: "A",
-        title: "Curriculum and Program of Studies",
-        description: [
-            {title: "A.1 Copy of the Curriculum (with prerequisite courses, where applicable)", link: "https://drive.google.com/drive/folders/1r27FlroVbCgfYTD7SkbVhCLnYqdCRNcy?usp=drive_link"},
-            {title: "A.2 CHED Policies and Standards, CMOs, where applicable", link: "https://drive.google.com/drive/folders/1Mw8QzDL7ikmvVLaKS2My_xozLVzwiZus?usp=drive_link"},
-            {title: "A.3 Copies of MOA or MOU with agencies re Immersion, OJT, RLE, Practice Teaching and other related activities", link: "https://drive.google.com/drive/folders/1nwB0jz33rZTfNzO8u5DBZR_1gN23pWOT?usp=drive_link"},
-            {title: "A.4 Minutes of the Academic Council Meeting", link: "https://drive.google.com/drive/folders/1HeX6e8huT5A_k3-fDv1abw3sP39RwIEU?usp=drive_link"},
-            {title: "A.5 Policies on Curriculum Development", link: "https://drive.google.com/drive/folders/10VtWJ4q15IURh5NTL1iGDdbVCrPBik1w?usp=drive_link"},
-            {title: "A.6 Policies on validation of subjects taken by transferees and accomodation of students with special needs", link: "https://drive.google.com/drive/folders/1mC8L2by8t6KyhbJzhzIhvGCba8d6pWI4?usp=drive_link"}
-        ]
+      id: "A",
+      title: "Curriculum and Program of Studies",
+      description: [
+          {title: "A.1 Copy of the Curriculum (with prerequisite courses, where applicable)", link: "https://drive.google.com/drive/folders/1r27FlroVbCgfYTD7SkbVhCLnYqdCRNcy?usp=drive_link"},
+          {title: "A.2 CHED Policies and Standards, CMOs, where applicable", link: "https://drive.google.com/drive/folders/1Mw8QzDL7ikmvVLaKS2My_xozLVzwiZus?usp=drive_link"},
+          {title: "A.3 Copies of MOA or MOU with agencies re Immersion, OJT, RLE, Practice Teaching and other related activities", link: "https://drive.google.com/drive/folders/1nwB0jz33rZTfNzO8u5DBZR_1gN23pWOT?usp=drive_link"},
+          {title: "A.4 Minutes of the Academic Council Meeting", link: "https://drive.google.com/drive/folders/1HeX6e8huT5A_k3-fDv1abw3sP39RwIEU?usp=drive_link"},
+          {title: "A.5 Policies on Curriculum Development", link: "https://drive.google.com/drive/folders/10VtWJ4q15IURh5NTL1iGDdbVCrPBik1w?usp=drive_link"},
+          {title: "A.6 Policies on validation of subjects taken by transferees and accomodation of students with special needs", link: "https://drive.google.com/drive/folders/1mC8L2by8t6KyhbJzhzIhvGCba8d6pWI4?usp=drive_link"}
+      ]
     },
     {
         id: "B",
