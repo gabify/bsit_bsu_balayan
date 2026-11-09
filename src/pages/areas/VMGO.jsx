@@ -26,7 +26,7 @@ const defaultArea = {
             {title: "Statement of the Program Objectives", link: "https://drive.google.com/file/d/1v7lYqKqHZWOpHIhZqhkqOlt0awzFwkvK/view?usp=drive_link"},
             {title: "Copy of the Charter of the Institution", link: "https://drive.google.com/file/d/13rbCJ0sChPRfptoyEN_ezlB0bfmrisXT/view?usp=drive_link"},
             {title: "Minutes of the Meeting in the Formulation, Review and Revision of the VMGO", link: "https://drive.google.com/drive/folders/1QqAq3_VDBwp9IGWw_5Pc9_5uLsulg0aw?usp=drive_link"},
-            {title: "File Copies of Letter of Invitation to Participants", link: "https://drive.google.com/file/d/1HSl6t7rUFyvEFZb98op7KnZkSjitzbGs/view?usp=drive_link"},
+            {title: "File Copies of Letter of Invitation to Participants", link: "https://drive.google.com/file/d/1L3KAZpX0xqXMULOaW570Gaa56NYMn6_Z/view?usp=drive_link"},
             {title: "Attendance Record of Stakeholder-Participants", link: "https://drive.google.com/drive/folders/14imtkUwmbQvepmwOqXW3XYtqBkOJ9-bs?usp=drive_link"},
             {title: "Copies of CMO's Relevant to VMGO Formulation, if any", link: "https://drive.google.com/drive/folders/1UZ-VugkK7o6H_aE0mpkxU6NA09EnhvxW?usp=drive_link"}
         ]
