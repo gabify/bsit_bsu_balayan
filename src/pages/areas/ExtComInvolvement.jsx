@@ -71,7 +71,7 @@ const defaultArea = {
             {title: "Evidence of community participation in the planning and implementation of extension projects/activities", link: "https://drive.google.com/file/d/155A3XRtcgpLEW00dAbwzv_4mpk7jJFdw/view?usp=drive_link"},
             {title: "Evidence of technology adoption, utilization and commercialization", link: "https://drive.google.com/file/d/1rxOEOufUxOmcP3r8LdnQHpAfrE90p-ym/view?usp=drive_link"},
             {title: "Copy of a long-term sustainable extension program, e.g. community development projects, etc.", link: "https://drive.google.com/file/d/15A_C65N-xM5EzBL2eoTcmIj1oru9bap_/view?usp=drive_link"},
-            {title: "List of collaborating agencies, including the nature of collaboration", link: "https://drive.google.com/file/d/1j8rucSA3k9TtP0gGs_dsVCN8-f8Uj-EC/view?usp=drive_link"}
+            {title: "List of collaborating agencies, including the nature of collaboration", link: "https://drive.google.com/file/d/1t27uBlPkcWIgYUEyQaIrWfZf2-CmQEH4/view?usp=drive_link"}
         ]
     },
   ],
