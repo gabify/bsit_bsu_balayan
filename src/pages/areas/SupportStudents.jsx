@@ -50,7 +50,7 @@ const defaultArea = {
             {title: "List of students who availed of the counseling service", link: "https://drive.google.com/drive/folders/19tNazFf_aCml-AUa27jyEaDFNhfg35qk?usp=drive_link"},
             {title: "Sample counseling referral form", link: "https://drive.google.com/file/d/1VOrSTIPG2qw41fNslkZfCmBjYuVVH0JG/view?usp=drive_link"},
             {title: "List of prospective employers of graduates of a particular program", link: "https://drive.google.com/drive/folders/1_V4mzGBSVNyAhcNYJ9HUqvm30AnfK8fh?usp=drive_link"},
-            {title: "Sample letters of employers inviting graduates of a particular program to apply", link: ""},
+            {title: "Sample letters of employers inviting graduates of a particular program to apply", link: "https://drive.google.com/drive/folders/1dH81IoARe-RGNDboRZMbyVfOAIbOkjR_?usp=drive_link"},
             {title: "Alumni Directory and officers of the Alumni Association", link: "https://drive.google.com/drive/folders/1oS8JsYbZxG-nTt6JrWv6O2Bxtt8x6532?usp=drive_link"},
             {title: "Linkage/s established with industries and prospective employers", link: "https://drive.google.com/drive/folders/1lQOQTQVNzNIU_PAl7xqeRXFVIizEak4B?usp=drive_link"},
             {title: "Copy of the instrument to evaluate the guidance program", link: "https://drive.google.com/drive/folders/1Fh7UvYNjKnDuO3-T1BdfBV4mmsvVeAOk?usp=drive_link"}
