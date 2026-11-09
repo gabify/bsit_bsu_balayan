@@ -44,9 +44,10 @@ const defaultArea = {
             {title: "Evidence on the Provision for Non-Print, Digital and Electronic Resources", link: "https://drive.google.com/file/d/1VRXlbnc8gZmIvPu39AcMLs-rqq_hIrPT/view?usp=drive_link"},
             {title: "List of Research Books and Materials", link: "https://drive.google.com/file/d/1psHKXg26fbu3JVe88dLIz34tMirkw5po/view?usp=drive_link"},
             {title: "Inventory of Flipiniana Collections", link: "https://drive.google.com/file/d/1DpwGYTSYJ7pZ1VTyBKo3EQX8RBu-Zp4u/view?usp=drive_link"},
-            {title: "Evidence of an Accepted and Standard Classification Scheme", link: "https://drive.google.com/file/d/1JJzV7XngLSYm1OyFPbsSVSEqFdA82r_Q/view?usp=drive_link"},
-            {title: "Policies on Preservation, Care and Upkeep of Library Resources", link: "https://drive.google.com/file/d/1cJzhTXb_oFVb0O_mXhe2hiN2dSiuwlhb/view?usp=drive_link"},
-            {title: "Evidence that the Library Resources are Provided", link: "https://drive.google.com/file/d/1RnhJbWHlV7sOje5tADzyu9tzAv5JBGt2/view?usp=drive_link"}
+            {title: "Evidence of an Accepted and Standard Classification Scheme", link: "https://drive.google.com/file/d/1cJzhTXb_oFVb0O_mXhe2hiN2dSiuwlhb/view?usp=drive_link"},
+            {title: "Policies on Preservation, Care and Upkeep of Library Resources", link: "https://drive.google.com/file/d/1DaeSCsGAkRqVBYfQzzlP59lgZByJLj7d/view?usp=drive_link"},
+            {title: "Evidence that the Library Resources are Provided", link: "https://drive.google.com/file/d/1RnhJbWHlV7sOje5tADzyu9tzAv5JBGt2/view?usp=drive_link"},
+            {title: "List of Classified Library Holdings Discarded or Weeded-out Books, Serials, Professional Books, and Electronic Resources", link: "https://drive.google.com/file/d/1wH2F6m_MqPTqxYWZlT8AuHZs_jAjU3de/view?usp=drive_link"}
         ]
     },
     {
