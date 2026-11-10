@@ -42,14 +42,14 @@ const defaultArea = {
         id: "C",
         title: "Guidance Program",
         description: [
-            {title: "Profile of the Guidance and Counseling Head", link: ""},
-            {title: "Updated Student Profiles", link: "https://drive.google.com/file/d/1ONyBnw4ddizyRIfhpU0n2Gu6mSWKsEof/view?usp=drive_link"},
-            {title: "Policies on the confidentiality of student records", link: "https://drive.google.com/file/d/1FFKg9j_DflqDjKFZjSZYjtpids6T-Nz-/view?usp=drive_link"},
+            {title: "Profile of the Guidance and Counseling Head", link: "https://drive.google.com/drive/folders/12nVDgPgVYfzcPoxxY4Z_uPAsPHMJ--Jf?usp=drive_link"},
+            {title: "Updated Student Profiles", link: "https://drive.google.com/drive/folders/1DEnFYHCfD0_U4xeZ7bT5gcT-gwvcmBts?usp=drive_link"},
+            {title: "Policies on the confidentiality of student records", link: "https://drive.google.com/drive/folders/18F99ex_fvwyT1K4FIZYbDEYE27vAQAu0?usp=drive_link"},
             {title: "A copy of the Testing Program", link: "https://drive.google.com/drive/folders/1Sh0XXAtcQ38wNM0p6ajmX8mZi7RF2_we?usp=drive_link"},
             {title: "List of tests and evaluative tools used in Guidance and Counseling services", link: "https://drive.google.com/drive/folders/1eeKfTI5ME6trS038CNr7IRB6Bk2zztY2?usp=drive_link"},
             {title: "List of students who availed of the counseling service", link: "https://drive.google.com/drive/folders/19tNazFf_aCml-AUa27jyEaDFNhfg35qk?usp=drive_link"},
-            {title: "Sample counseling referral form", link: "https://drive.google.com/file/d/1VOrSTIPG2qw41fNslkZfCmBjYuVVH0JG/view?usp=drive_link"},
-            {title: "List of prospective employers of graduates of a particular program", link: "https://drive.google.com/drive/folders/1_V4mzGBSVNyAhcNYJ9HUqvm30AnfK8fh?usp=drive_link"},
+            {title: "Sample counseling referral form", link: "https://drive.google.com/drive/folders/1Hr52DaB-wa1pEPf9Hwsdq3gMGXswUHqB?usp=drive_link"},
+            {title: "List of prospective employers of graduates of a particular program", link: "https://drive.google.com/drive/folders/1gL-Rj7HINhrLLMcaJu2WN1I0Sfvn4vxD?usp=drive_link"},
             {title: "Sample letters of employers inviting graduates of a particular program to apply", link: "https://drive.google.com/drive/folders/1dH81IoARe-RGNDboRZMbyVfOAIbOkjR_?usp=drive_link"},
             {title: "Alumni Directory and officers of the Alumni Association", link: "https://drive.google.com/drive/folders/1oS8JsYbZxG-nTt6JrWv6O2Bxtt8x6532?usp=drive_link"},
             {title: "Linkage/s established with industries and prospective employers", link: "https://drive.google.com/drive/folders/1lQOQTQVNzNIU_PAl7xqeRXFVIizEak4B?usp=drive_link"},
@@ -79,11 +79,12 @@ const defaultArea = {
         id: "F",
         title: "Co-curricular and Extra-curricular Programs and Activities",
         description: [
-            {title: "List of recognized student organizations, including their advisers", link: "https://drive.google.com/file/d/1jmQYpuvE9CtgnAJIF4aq9JXABj1d_NEQ/view?usp=drive_link"},
-            {title: "Sample Constitution and By-Laws of student organizations", link: "https://drive.google.com/file/d/1wva5zKpnHhr4DG6KP49NPN4l0frDtCYL/view?usp=drive_link"},
-            {title: "List of co-curricular and extra-curricular activities including relevant information", link: "https://drive.google.com/drive/folders/1fXY57dfI96QPaBxR2tyWzwTea7nXVfrP?usp=drive_link"},
-            {title: "A system of incentives, awards/recognition for outstanding achievement in co-curricular and extra-curricular activities", link: "https://drive.google.com/drive/folders/1_JElE2O5dlZoZvG4EEdKLQfFx1uVOYG1?usp=drive_link"},
-            {title: "Sample Accomplishment Reports of recognized student organizations", link: "https://drive.google.com/drive/folders/1RGoepOVWN9L2wdrvjNKECqTjXg2a2hfP?usp=drive_link"}
+            {title: "List of recognized student organizations, including their advisers", link: "https://drive.google.com/drive/folders/1-L_72MlIU9GVS4pL-YcofbeQXVoKXeb6?usp=drive_link"},
+                {title: "Sample Constitution and By-Laws of student organizations", link: "https://drive.google.com/drive/folders/11-XPOTqKWwqns49iwZaOHdnnC1O0xj0I?usp=drive_link"},
+                {title: "List of co-curricular and extra-curricular activities including relevant information", link: "https://drive.google.com/drive/folders/1fXY57dfI96QPaBxR2tyWzwTea7nXVfrP?usp=drive_link"},
+                {title: "A system of incentives, awards/recognition for outstanding achievement in co-curricular and extra-curricular activities", link: "https://drive.google.com/drive/folders/1_JElE2O5dlZoZvG4EEdKLQfFx1uVOYG1?usp=drive_link"},
+                {title: "Sample Accomplishment Reports of recognized student organizations", link: "https://drive.google.com/drive/folders/1RGoepOVWN9L2wdrvjNKECqTjXg2a2hfP?usp=drive_link"}
+
         ]
     }
   ],
