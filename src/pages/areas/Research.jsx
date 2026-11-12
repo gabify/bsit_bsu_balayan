@@ -35,10 +35,10 @@ const defaultArea = {
               {title: "Copy of Budget Allocation for Research", link: "https://drive.google.com/file/d/1sooRmyTEdM6EC4hWZRhhWjl0HXp_rcEU/view?usp=drive_link"},
               {title: "List of Linkagaes Networking with Research Funding Agencies", link: "https://drive.google.com/file/d/1ClN3WyjsBxPsbt-3fbKbgdZXOnrOJIFB/view?usp=drive_link"},
               {title: "Inventory of Research Facilities, Equipment and Amenities", link: "https://drive.google.com/file/d/178G3LM_Vp7EVxOTobve2mMf4qcX-0mXc/view?usp=drive_link"},
-              {title: "Profile of Research PersonnelStaff", link: "https://drive.google.com/file/d/19Gk-xfs2BGLLUG0DlN5WDZLGv5M_3Ajw/view?usp=drive_link"},
+              {title: "Profile of Research Personnel/Staff", link: "https://drive.google.com/file/d/19Gk-xfs2BGLLUG0DlN5WDZLGv5M_3Ajw/view?usp=drive_link"},
               {title: "List of Patents, Licenses, Copyrights and other Research Outputs, icluding income generated from each of item, if any.", link: "https://drive.google.com/file/d/1x3Z3RsJNB0eZ0HTmjeXQK0MJedFp37mM/view?usp=drive_link"},
               {title: "Copy of Research Staff Development Program", link: "https://drive.google.com/file/d/1x8PiTKFvrcJfw0hF8gt9-gDvCsJoAENR/view?usp=drive_link"},
-              {title: "List of Team Collaborative Researches Conducted", link: "https://drive.google.com/file/d/1NcSI1yOiXq1hGbcESJvSgnzKFyoDUnYv/view?usp=drive_link"}
+              {title: "Copy of the research staff development program", link: "https://drive.google.com/file/d/1NcSI1yOiXq1hGbcESJvSgnzKFyoDUnYv/view?usp=drive_link"}
           ]
       },
       {
